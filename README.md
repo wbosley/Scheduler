@@ -58,7 +58,7 @@ NOTE: PLEASE DO NOT PRESS THE "Schedule break(s)" BUTTON. This is a button for t
 
 <img src="Images/breaks.png" width = "300">
 
-Many apologies for the rough UI. Less focus was taken on the visuals of the scheduler during development because we were determined to make this application as feature rich as possible within the time available.
+Many apologies for the rough UI. Less focus was put on developing the visuals of the scheduler during development because we were determined to make this application as feature rich as possible within the time available.
 
 <h4>Rescheduling tasks.</h4>
 
