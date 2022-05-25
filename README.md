@@ -3,7 +3,7 @@
 To set up the scheduler, first a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
 <br>
 
-To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been highlighted in red in the image below, you should have access to you CLIENT ID and your API KEY.
+To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been highlighted in red in the image below, you should have access to you CLIENT ID and your API KEY.
 
 https://developers.google.com/calendar/api/quickstart/js
 
