@@ -27,7 +27,7 @@ python -m SimpleHTTPServer 8000
 
 ...however, this project has not been tested using Python 2, so there may be errors if using Python 2. Please try to use the project using a version of Python 3.
 
-Once the python server is running, go to http://localhost:8000/ in your web browser and the scheduler should be available to use.
+These lines of code start a very basic Python web server that will be hosting index.html. Once the Python server is running, go to http://localhost:8000/ in your web browser and the scheduler should be available to use.
 
 
 <h2>USING THE SCHEDULER</h2>
