@@ -1,4 +1,4 @@
-# Scheduler
+#Will Bosley Third Year Project 2022: Scheduler
 <h2>SETTING UP THE SCHEDULER</h2>
 To set up the scheduler, first a Google Cloud Platform project must be created with the Google Calendnar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
 
