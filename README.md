@@ -5,6 +5,12 @@ These can be obtained by completing the prerequsistes steps for Google's JavaScr
 
 https://developers.google.com/calendar/api/quickstart/js
 
+
+
+<img src="Images/download.png" width = "700">
+
+The steps to be completed have been highlighted in red.
+
 Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY vars with your own client id and api keys. These variables are be initialised near lines 1865 and 1866 within index.html.
 
 After placing your own Client ID and API key into the file, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
