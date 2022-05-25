@@ -3,7 +3,7 @@
 To set up the scheduler, first a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
 <br>
 
-To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been highlighted in red in the image below, you should have access to you CLIENT ID and your API KEY.
+To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY.
 
 https://developers.google.com/calendar/api/quickstart/js
 
@@ -13,7 +13,7 @@ https://developers.google.com/calendar/api/quickstart/js
 
 
 
-Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY vars with your own client id and api keys. These variables are be initialised near lines 1865 and 1866 within index.html.
+Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api keys. These variables are be initialised near lines 1865 and 1866 within index.html.
 
 After placing your own Client ID and API key into the file, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
 
@@ -32,13 +32,13 @@ Once the python server is running, go to http://localhost:8000/ in your web brow
 
 <h4>Scheduling tasks.</h4>
 
-First, log in using a Google account by pressing the "authorize" button in the upper left corner. The position of the authrize button on the page has been highlighted in red in the image below.
+First, log in using a Google account by pressing the "authorize" button in the upper left corner. The position of the authorize button on the page has been outlined in red in the image below.
 <img src="Images/login.png" width = "700">
 
 Once you have logged in, you can start scheduling tasks. To add a task, fill in its details in the "form for adding tasks" on the left hand side of the page. When you have specified your task you want scheduled, press the "create task" button at the bottom of the form. If you want to input another task, change the details in the form to the details of your next task and press "create task". An image of this form can be seen below:
 <img src="Images/addTasks.png" width = "300">
 
-NOTE: the boxes highlighted in red in the image are used for testing, and have no function here, so please do not attempt to fill them in.
+NOTE: the boxes outlined in red in the image are used for testing, and have no function here, so please do not attempt to fill them in.
 
 Once you've submitted all your tasks you want scheduling, press "schedule tasks" to schedule these to your Google Calendar.
 
