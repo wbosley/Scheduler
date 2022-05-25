@@ -62,5 +62,7 @@ Many apologies for the rough UI. Less focus was put on developing the visuals of
 
 <h4>Rescheduling tasks.</h4>
 
-If you would like to regenerate your in-progress, previously generated schedule, tick the "reschedule old tasks" button prior to pressing "schedule tasks". If you want to adjust the work hours, add any extra breaks, or upload any new tasks to go along with this reschedule, fill in the appropriate forms before pressing "schedule tasks".
+The scheduler has the ability to react appropriately if your plans change, and you need to regenerate your schedule. An example of a scenario like this would be if a user had previously generated a work schedule, and then found out later that they had a hospital appointment stopping them from completing a day’s work tasks. The program can regenerate the user’s schedule to fit in work events around their new calendar. It will reschedule all uncompleted work events in the gaps in the user’s updated Google calendar.
+
+The steps to reschedule any previously scheduled, in progress tasks is as follows. Tick the "reschedule old tasks" button <b>prior</b> to pressing "schedule tasks". If you want to adjust the work hours, add any extra breaks, or upload any new tasks to go along with this reschedule, fill in the appropriate forms before pressing "schedule tasks". 
 
