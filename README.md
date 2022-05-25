@@ -54,9 +54,9 @@ The default work hours within which tasks will be scheduled for this project is 
 
 The form on the right labelled "Form for adding breaks" can be used to add breaks into your next schedule. To add a break, fill in the form with the details of your desired break and press "create break". To add multiple breaks, change the details that you previously entered into the break form and press "create break" again. These breaks will be applied to your generated schedule when you press "schedule tasks". The break form can be seen below.
 
-<img src="Images/breaks.png" width = "300">
-
 NOTE: PLEASE DO NOT PRESS THE "Schedule break(s)" BUTTON. This is a button for testing, and will refresh your page and reset anything you have inputted into the website. The breaks you have submitted by pressing "create break" will be scheduled in automatically upon pressing "schedule tasks".
+
+<img src="Images/breaks.png" width = "300">
 
 Many apologies for the rough UI. Less focus was taken on the visuals of the scheduler during development because we were determined to make this application as feature rich as possible within the time available.
 
