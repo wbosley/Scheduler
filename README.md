@@ -1,6 +1,6 @@
 <h1>Will Bosley Third Year Project 2022: Scheduler</h1>
 <h2>SETTING UP THE SCHEDULER</h2>
-If you do not already have the files, download SourceCode.zip and unzip the folder.
+If you do not already have the files, download SourceCode.zip and unzip the folder. If you are marking this project, you will find SourceCode.zip within my submission.
 
 To set up the scheduler, a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
 <br>
