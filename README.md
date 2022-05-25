@@ -2,7 +2,7 @@
 <h2>SETTING UP THE SCHEDULER</h2>
 If you do not already have the files, download SourceCode.zip and unzip the folder. If you are marking this project, you will find SourceCode.zip within my submission.
 
-To set up the scheduler, a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
+To set up the scheduler, a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID (AKA OAuth client ID) and API KEY must be created.
 <br>
 
 To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY. Although python 2.4 or greater can be used to run a web server for the project, it would be preferable to have a version of Python 3 installed for this project.
