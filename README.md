@@ -13,7 +13,7 @@ https://developers.google.com/calendar/api/quickstart/js
 
 
 
-Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api keys. These variables are be initialised near lines 1865 and 1866 within index.html.
+Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized near lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID).
 
 After placing your own Client ID and API key into the file, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
 
