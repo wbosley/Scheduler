@@ -1,6 +1,8 @@
 <h1>Will Bosley Third Year Project 2022: Scheduler</h1>
 <h2>SETTING UP THE SCHEDULER</h2>
-To set up the scheduler, first a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
+If you do not already have the files, download SourceCode.zip and unzip the folder.
+
+To set up the scheduler, a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID and API KEY must be created.
 <br>
 
 To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY.
@@ -13,7 +15,7 @@ https://developers.google.com/calendar/api/quickstart/js
 
 
 
-Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized on lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
+Once these have been obtained, open index.html from inside the SourceCode folder and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized on lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
 
 <img src="Images/apikey.png" width = "550">
 
