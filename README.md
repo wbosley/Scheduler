@@ -57,3 +57,7 @@ NOTE: PLEASE DO NOT PRESS THE "Schedule break(s)" BUTTON. This is a button for t
 
 Many apologies for the rough UI. Less focus was taken on the visuals of the scheduler during development because we were determined to make this application as feature rich as possible within the time available.
 
+<h4>Rescheduling tasks.</h4>
+
+If you would like to regenerate your in-progress, previously generated schedule, tick the "reschedule old tasks" button prior to pressing "schedule tasks". If you want to adjust the work hours, add any extra breaks, or upload any new tasks to go along with this reschedule, fill in the appropriate forms before pressing "schedule tasks".
+
