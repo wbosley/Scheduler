@@ -13,7 +13,7 @@ https://developers.google.com/calendar/api/quickstart/js
 
 
 
-Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized near lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
+Once these have been obtained, open index.html and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized on lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
 
 <img src="Images/apikey.png" width = "550">
 
