@@ -37,16 +37,16 @@ These lines of code start a very basic Python web server that will be hosting in
 First, log in using a Google account by pressing the "authorize" button in the upper left corner. The position of the authorize button on the page has been outlined in red in the image below.
 <img src="Images/login.png" width = "700">
 
-Once you have logged in, you can start scheduling tasks. To add a task, fill in its details in the "form for adding tasks" on the left hand side of the page. When you have specified your task you want scheduled, press the "create task" button at the bottom of the form. If you want to input another task, change the details in the form to the details of your next task and press "create task". An image of this form can be seen below:
+Once you have logged in, you can start scheduling tasks. To add a task, fill in its details in the "form for adding tasks" on the left hand side of the page. When you have specified the task you want scheduled, press the "create task" button at the bottom of the form. If you want to input another task, change the details in the form to the details of your next task and press "create task". An image of this form can be seen below:
 <img src="Images/addTasks.png" width = "300">
 
 NOTE: the boxes outlined in red in the image are used for testing, and have no function here, so please do not attempt to fill them in.
 
-Once you've submitted all your tasks you want scheduling, press "schedule tasks" to schedule these to your Google Calendar.
+Once you've submitted all the tasks you want scheduling, press "schedule tasks" to schedule these to your Google Calendar.
 
 <h4>Setting work hours.</h4>
 
-The default work hours for tasks to be scheduled in for this priject is 9am to 5pm. If you want to set custom work hours, fill in the central form with the hours that suit you best. After typing in your work hours and pressing and press "set work hours", these work hours should be applied next time you generate a schedule by pressing "Schedule tasks" this session. An image of the form for setting your work hours can be seen below.
+The default work hours within which tasks will be scheduled for this project is 9am to 5pm. If you want to set custom work hours, fill in the central form with the hours that suit you best. After typing in your work hours and pressing and press "set work hours", these work hours should be applied next time you generate a schedule by pressing "Schedule tasks" this session. An image of the form for setting your work hours can be seen below.
 
 <img src="Images/workhours.png" width = "300">
 
