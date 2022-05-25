@@ -66,3 +66,13 @@ The scheduler has the ability to react appropriately if your plans change, and y
 
 The steps to reschedule any previously scheduled, in progress tasks is as follows. Tick the "reschedule old tasks" button <b>prior</b> to pressing "schedule tasks". If you want to adjust the work hours, add any extra breaks, or upload any new tasks to go along with this reschedule, fill in the appropriate forms before pressing "schedule tasks". 
 
+Please note that scheduling tasks may take a little time, as the Google Calendar API does not allow more than 10 requests per second for developers with free accounts. Please wait for your Google Calendar to update with your schedule before closing or refreshing the webpage. If your Google Calendar is not updating, please try refreshing the Google Calendar web page. If you want to see the progress of event generation, scroll down to see messages appearing at the bottom of the screen one by one as your events are genarated. If you want to see the progress of event deletion, messages will appear in your web browsers console. (commonly accessed by pressing F12.)
+
+<h4>Bugs</h4>
+Note: There are two bugs which are in the process of being fixed.
+
+There is a bug which can appear when rescheduling tasks. If the current time when the reschedule takes place is within the user’s specified work hours, some events which are scheduled onto that date on the calendar may be erroneously  scheduled in the past. For example, if it's lunchtime, events could be rescheduled in the morning. These erroneously scheduled events may overlap with other calendar events which are positioned earlier in the day. Additionally, they obviously cannot be accomplished if they are in the past. Events which are being rescheduled on the present day should of course only appear in the future. This bug will be fixed in the next update to the code on the Github.
+
+As well as this, there were issues with the times of breaks always being interpreted by the scheduler as being in GMT.  This means that if a break is entered with a time of 1pm to 2pm while it is currently British Summer Time, the breaks will appear between 2pm and 3pm on the user’s calendar. A fix for this is in development.
+
+
