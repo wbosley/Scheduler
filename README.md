@@ -37,7 +37,7 @@ This line of code needs to be deleted for the scheduler to run. The image below 
 
 <img src="Images/requireAFTER.png" width = "550">
 
-After you have made these edits to index.html, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
+After you have made these edits to index.html, navigate to the directory named SourceCode using the Windows Command Prompt (cmd) , and run this command if you have a version of Python 3 installed:
 
 ``python -m http.server 8000``
 
@@ -81,7 +81,7 @@ The default work hours within which tasks will be scheduled for this project is 
 
 The form on the right labelled "Form for adding breaks" can be used to add breaks into your next schedule. To add a break, fill in the form with the details of your desired break and press "create break". To add multiple breaks, change the details that you previously entered into the break form and press "create break" again. These breaks will be applied to your generated schedule when you press "schedule tasks". The break form can be seen below.
 
-NOTE: PLEASE DO NOT PRESS THE "Schedule break(s)" BUTTON. This is a button for testing, and will refresh your page and reset anything you have inputted into the website. The breaks you have submitted by pressing "create break" will be scheduled in automatically upon pressing "schedule tasks".
+<i>NOTE: PLEASE DO NOT PRESS THE "Schedule break(s)" BUTTON. This is a button for testing, and will refresh your page and reset anything you have inputted into the website. The breaks you have submitted by pressing "create break" will be scheduled in automatically upon pressing "schedule tasks".</i>
 
 <img src="Images/breaks.png" width = "300">
 
@@ -98,12 +98,12 @@ Please note that scheduling tasks may take a little time, as the Google Calendar
 <h4>Bugs</h4>
 Note: There are two bugs which are in the process of being fixed.
 
-There is a bug which can appear when rescheduling tasks. If the current time when the reschedule takes place is within the user’s specified work hours, some events which are scheduled onto that date on the calendar may be erroneously  scheduled in the past. For example, if it's lunchtime, events could be rescheduled in the morning. These erroneously scheduled events may overlap with other calendar events which are positioned earlier in the day. Additionally, they obviously cannot be accomplished if they are in the past. Events which are being rescheduled on the present day should of course only appear in the future. This bug will be fixed in the next update to the code on the Github.
+There is a bug which can appear when scheduling tasks. If the current time when the schedule takes place is within the user’s specified work hours, some events which are scheduled onto that date on the calendar may be erroneously scheduled in the past. For example, if it's lunchtime, events could be scheduled in the morning. These erroneously scheduled events may overlap with other calendar events which are positioned earlier in the day. Additionally, they obviously cannot be accomplished if they are in the past. Events which are being scheduled on the present day should of course only appear in the future. This bug will be fixed in the next update to the code on the Github.
 
 As well as this, there were issues with the times of breaks always being interpreted by the scheduler as being in GMT.  This means that if a break is entered with a time of 1pm to 2pm while it is currently British Summer Time, the breaks will appear between 2pm and 3pm on the user’s calendar. A fix for this is in development.
 
 <h4> ERROR: 'Not a valid origin for the client'</h4>
-If you are recieving the error, ``idpiframe_initialization_failed: Not a valid origin for the client``, it may be because http://localhost:8000 was not set as a JavaScript origin when setting up the client ID. here is a fix you can try.
+If you are recieving the error, ``idpiframe_initialization_failed: Not a valid origin for the client`` , it may be because http://localhost:8000 was not set as a JavaScript origin when setting up the client ID. Below is a fix you can try.
 
 Open your project in the Google Cloud Platform, then open the menu in the top left and navigate to ``APIs and serices >> credentials``.
 
@@ -113,7 +113,7 @@ Click the pencil icon on your ClientID to edit it. An red arrow pointing to the 
 
 <img src="Images/setDomain2.png" width = "700">
 
-Under the heading "Authroised JavaScript origins", press "ADD URL". An image of the button you need to press is pointed at by a red arrow in the image above.
+Under the heading "Authorised JavaScript origins", press "ADD URL". An image of the button you need to press is pointed at by a red arrow in the image above.
 
 <img src="Images/setDomain3.png" width = "700">
 
