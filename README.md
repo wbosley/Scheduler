@@ -67,7 +67,7 @@ These lines of code start a very basic Python web server that will be hosting in
 
 If upon correctly completing the steps above and navigating to http://localhost:8000, there are any error messages at the bottom of the screen, please refer to the Google Quickstart tutorial's [troubleshooting](https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes) section.  A common error that can occur is the message ``idpiframe_initialization_failed: Not a valid origin for the client`` appearing at the bottom of the scheduler's web page. Advice for fixing this error can be found at the bottom of this readme file.
 
-If you are having any trouble setting this up or need any advice, please email me at W.Bosley@uea.ac.uk
+Having tested this process myself using a new Google account, I understand that Google's tutorials can be a bit vague. I understand this is a lengthy setup process. If you are having any trouble setting this up or need any advice, please email me at W.Bosley@uea.ac.uk
 
 
 <h2>USING THE SCHEDULER</h2>
