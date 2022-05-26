@@ -59,10 +59,15 @@ If upon correctly completing the steps above and navigating to http://localhost:
 First, log in using a Google account by pressing the "authorize" button in the upper left corner. The position of the authorize button on the page has been outlined in red in the image below.
 <img src="Images/login.png" width = "700">
 
-Once you have logged in, you can start scheduling tasks. To add a task, fill in its details in the "form for adding tasks" on the left hand side of the page. When you have specified the task you want scheduled, press the "create task" button at the bottom of the form. If you want to input another task, change the details in the form to the details of your next task and press "create task". An image of this form can be seen below:
+Once you have logged in, you can start scheduling tasks. To add a task, fill in its details in the "form for adding tasks" on the left hand side of the page. When you have specified the task you want scheduled, press the "create task" button at the bottom of the form. If you want to input another task, change the details in the form to the details of your next task and press "create task". 
+
+<i>PLEASE NOTE: In this version, the decription of the task you are inputting is used by the scheduler to identify it in your Google Calendar. Please refrain from using the same descriptions for multiple tasks, or some processes my function incorrectly. This will be changed in the next update.</i>
+
+An image of this form can be seen below:
+
 <img src="Images/addTasks.png" width = "300">
 
-NOTE: the boxes outlined in red in the image are used for testing, and have no function here, so please do not attempt to fill them in.
+<i>PLEASE NOTE: the boxes outlined in red in the image are used for testing, and have no function here, so please do not attempt to fill them in.</i>
 
 Once you've submitted all the tasks you want scheduling, press "schedule tasks" to schedule these to your Google Calendar.
 
