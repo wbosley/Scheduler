@@ -47,9 +47,9 @@ After you have made these edits to index.html, go to the directory named SourceC
 
 ...however, this project has not been tested using Python 2, so there may be errors if using Python 2. Please try to use the project using a version of Python 3.
 
-These lines of code start a very basic Python web server that will be hosting index.html. Once the Python server is running, go to http://localhost:8000/ in your web browser and the scheduler should be available to use.
+These lines of code start a very basic Python web server that will be hosting index.html. Once the Python server is running, go to http://localhost:8000 in your web browser and the scheduler should be available to use.
 
-If upon correctly completing the steps above and navigating to http://localhost:8000/, there are any error messages at the bottom of the screen, please refer to the Google Quickstart tutorial's [troubleshooting](https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes) section.
+If upon correctly completing the steps above and navigating to http://localhost:8000, there are any error messages at the bottom of the screen, please refer to the Google Quickstart tutorial's [troubleshooting](https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes) section.  A common error that can occur is the message ``idpiframe_initialization_failed: Not a valid origin for the client`` appearing at the bottom of the scheduler's web page. Advice for fixing this error can be found at the bottom of this readme file.
 
 
 <h2>USING THE SCHEDULER</h2>
@@ -97,4 +97,20 @@ There is a bug which can appear when rescheduling tasks. If the current time whe
 
 As well as this, there were issues with the times of breaks always being interpreted by the scheduler as being in GMT.  This means that if a break is entered with a time of 1pm to 2pm while it is currently British Summer Time, the breaks will appear between 2pm and 3pm on the user’s calendar. A fix for this is in development.
 
+<h4> ERROR: 'Not a valid origin for the client'</h4>
+If you are recieving the error, ``idpiframe_initialization_failed: Not a valid origin for the client``, it may be because http://localhost:8000 was not set as a JavaScript origin when setting up the client ID. here is a fix you can try.
+
+Open your project in the Google Cloud Platform, then open the menu in the top left and navigate to ``APIs and serices >> credentials``.
+
+<img src="Images/setDomain1.png" width = "800">
+
+Click the pencil icon on your ClientID to edit it. An red arrow pointing to the button you should press is in the image above.
+
+<img src="Images/setDomain2.png" width = "700">
+
+Under the heading "Authroised JavaScript origins", press "ADD URL". An image of the button you need to press is pointed at by a red arrow in the image above.
+
+<img src="Images/setDomain3.png" width = "700">
+
+Next, add http://localhost:8000 as an authrorised JavaScript origin by typing it into the URL box, which can be seen in the image above, and saving your changes.
 
