@@ -121,7 +121,7 @@ As well as this, there were issues with the times of breaks always being interpr
 <h4> ERROR: 'Not a valid origin for the client'</h4>
 If you are recieving the error, ``idpiframe_initialization_failed: Not a valid origin for the client`` , it may be because http://localhost:8000 was not set as a JavaScript origin when setting up the client ID. Below is a fix you can try.
 
-Open your project in the Google Cloud Platform, then open the menu in the top left and navigate to ``APIs and serices >> credentials``.
+Open your project in the Google Cloud Platform, then open the menu in the top left and navigate to ``APIs and services >> credentials``.
 
 <img src="Images/setDomain1.png" width = "800">
 
