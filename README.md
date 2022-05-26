@@ -5,16 +5,23 @@ If you do not already have the files, download SourceCode.zip and unzip the fold
 To set up the scheduler, a Google Cloud Platform project must be created with the Google Calendar API enabled. Then a Google Calendar API CLIENT ID (AKA OAuth client ID) and API KEY must be created.
 <br>
 
+<h4>Getting your Client ID and API key.</h4>
+
 To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY. Although python 2.4 or greater can be used to run a web server for the project, it would be preferable to have a version of Python 3 installed for this project. If you are having issues setting up, please refer to the information under the heading "Troubleshoot the sample" at the bottom of the JavaScript QuickStart tutorial page.
 
+<img src="Images/download.png" width = "700">
 
-<i>PLEASE NOTE:</i> When you are  creating your Oauth Client ID credentials, you will be prompted to configure your OAuth consent screen, scopes, and test users. There are a couple of specific things that need doing during these stages.
+Google's JavaScript Quickstart tutorial can be found here: https://developers.google.com/calendar/api/quickstart/js
 
-During the "scopes" stage, you need to make sure to add the Google Calendar API scope.
+Troubleshooting: https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes
+
+<i>PLEASE NOTE: When you are  creating your Oauth Client ID credentials, you will be prompted to configure your OAuth consent screen, scopes, and test users. There are a couple of specific things that need to be done during these stages:</i>
+
+During the "scopes" stage, you need to make sure to add the Google Calendar API scope. Instructions to do this are as follows:
 
 <img src="Images/oauthscopes2.png">
 
-Press the button outlined in red in the image above to start manually adding a scope.
+Press the "add or remove scopes" button, outlined in red in the image above, to start manually adding a scope.
 
 <img src="Images/manuallyaddscopes.png">
 
@@ -22,21 +29,13 @@ You then need to select the scope ``https://www.googleapis.com/auth/calendar`` f
 
 <img src="Images/addScopes3.png">
 
-Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of its row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
+Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of it's row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
 
 On the next screen, you will be prompted to add test users. Be sure to add the Google account that you will be using the application with as a test user, so you can use the app.
 
-Google's JavaScript Quickstart tutorial can be found here: https://developers.google.com/calendar/api/quickstart/js
+<h4>Customising the code.</h4>
 
-Troubleshooting: https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes
-
-
-
-<img src="Images/download.png" width = "700">
-
-
-
-Once these have been obtained, open index.html from inside the SourceCode folder and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized on lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
+Once your API Key and Client ID have been obtained, open index.html from inside the SourceCode folder and replace the values of the CLIENT_ID and API_KEY variables with your own client id and api key. These variables are initialized on lines 1865 and 1866 within index.html. Change the values of these variables from "XXXX" to (Your API Key/ Client ID). An image of the variables within index.html that need editing is below.
 
 <img src="Images/apikey.png" width = "550">
 
