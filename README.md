@@ -13,8 +13,6 @@ To obtain an API key and a Client ID, it is necessary to complete the bullet poi
 
 Google's JavaScript Quickstart tutorial can be found here: https://developers.google.com/calendar/api/quickstart/js
 
-Troubleshooting: https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes
-
 <i>PLEASE NOTE: When you are  creating your Oauth Client ID credentials, you will be prompted to configure your OAuth consent screen, scopes, and test users. There are a couple of specific things that need to be done during these stages:</i>
 
 During the "scopes" stage, you need to make sure to add the Google Calendar API scope. Instructions to do this are as follows:
