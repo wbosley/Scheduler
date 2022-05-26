@@ -133,5 +133,5 @@ Under the heading "Authorised JavaScript origins", press "ADD URL". An image of 
 
 <img src="Images/setDomain3.png" width = "700">
 
-Next, add http://localhost:8000 as an authrorised JavaScript origin by typing it into the URL box, which can be seen in the image above, and saving your changes.
+Next, add http://localhost:8000 as an authorised JavaScript origin by typing it into the URL box, and saving your changes. This can be seen in the image above.
 
