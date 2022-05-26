@@ -40,7 +40,7 @@ Once your API Key and Client ID have been obtained, open index.html from inside 
 After placing your own Client ID and API key into the file, go to lines 1899-1903 in index.html, and there should be a function named initClient. In order for your client ID and your API key to work, a small edit needs to be made here.
 
 <img src="Images/initBefore.png" width = "650">
-Find the section outlined in red in the image above within the initClient function in index.html. Directly aftet the word 'SCOPES' on line 1903, type a comma, press enter to go to a new line, and type  'plugin_name: "scheduler"'. Afterwards, the text in your function should look like the image below. The edited section has been outlined in red, and the new line of code you need to type has a red arrow pointing at it. Please do not forget to type the comma after the word 'SCOPES'.
+Find the section outlined in red in the image above within the initClient function in index.html. Directly after the word 'SCOPES' on line 1903, type a comma, press enter to go to a new line, and type  'plugin_name: "scheduler"'. Afterwards, the text in your function should look like the image below. The edited section has been outlined in red, and the new line of code you need to type has a red arrow pointing at it. Please do not forget to type the comma after the word 'SCOPES'.
 <img src="Images/initAfter.png" width = "650">
 
 After you have done this, navigate to line 1858 in index.html. There will be a line of code that reads ``<script src = "scripts/require.js"></script>``. This line of code has been outlined in red in the image below.
