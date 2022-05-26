@@ -8,6 +8,23 @@ To set up the scheduler, a Google Cloud Platform project must be created with th
 To obtain an API key and a Client ID, it is only necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY. Although python 2.4 or greater can be used to run a web server for the project, it would be preferable to have a version of Python 3 installed for this project. If you are having issues setting up, please refer to the information under the heading "Troubleshoot the sample" at the bottom of the JavaScript QuickStart tutorial page.
 
 
+<i>PLEASE NOTE:</i> When you are  creating your Oauth Client ID credentials, you will be prompted to configure your OAuth consent screen, scopes, and test users. There are a couple of specific things that need doing during these stages.
+
+During the "scopes" stage, you need to make sure to add the Google Calendar API scope.
+
+<img src="Images/oauthscopes2.png">
+
+Press the button outlined in red in the image above to start manually adding a scope.
+
+<img src="Images/manuallyaddscopes.png">
+
+You then need to select the scope ``https://www.googleapis.com/auth/calendar`` from the table of scopes which appears. If this scope is not there, enter ``https://www.googleapis.com/auth/calendar`` into the text box outlined in red in the image above and press add to table.
+
+<img src="Images/manuallyaddScopes.png">
+
+Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of its row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
+
+On the next screen, you will be prompted to add test users. Be sure to add the Google account that you will be using the application with as a test user, so you can use the app.
 
 Google's JavaScript Quickstart tutorial can be found here: https://developers.google.com/calendar/api/quickstart/js
 
