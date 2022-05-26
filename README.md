@@ -27,7 +27,7 @@ You then need to select the scope ``https://www.googleapis.com/auth/calendar`` f
 
 <img src="Images/addScopes3.png">
 
-Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of it's row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
+Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of its row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
 
 On the next screen, you will be prompted to add test users. Be sure to add the Google account that you will be using the application with as a test user, so you can use the app.
 
