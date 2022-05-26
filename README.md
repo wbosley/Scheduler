@@ -18,9 +18,9 @@ Press the button outlined in red in the image above to start manually adding a s
 
 <img src="Images/manuallyaddscopes.png">
 
-You then need to select the scope ``https://www.googleapis.com/auth/calendar`` from the table of scopes which appears. If this scope is not there, enter ``https://www.googleapis.com/auth/calendar`` into the text box outlined in red in the image above and press add to table.
+You then need to select the scope ``https://www.googleapis.com/auth/calendar`` from the table of scopes which appears. If this scope is not there, enter ``https://www.googleapis.com/auth/calendar`` into the text box outlined in red in the image above and press "add to table".
 
-<img src="Images/manuallyaddScopes.png">
+<img src="Images/addScopes3.png">
 
 Once you have found the ``https://www.googleapis.com/auth/calendar`` scope in the table, tick the check box that will be on the left of its row, and press "update". The scope, with the checkbox ticked, is outlined in red in the image above.
 
