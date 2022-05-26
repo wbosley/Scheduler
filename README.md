@@ -23,17 +23,33 @@ Once these have been obtained, open index.html from inside the SourceCode folder
 
 <img src="Images/apikey.png" width = "550">
 
-After placing your own Client ID and API key into the file, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
+After placing your own Client ID and API key into the file, go to lines 1899-1903 in index.html, and there should be a function named initClient. In order for your client ID and your API key to work, a small edit needs to be made here.
 
-python -m http.server 8000
+<img src="Images/initBefore.png" width = "650">
+Find the section outlined in red in the image above within the initClient function in index.html. Directly aftet the word 'SCOPES' on line 1903, type a comma, press enter to go to a new line, and type  'plugin_name: "scheduler"'. Afterwards, the text in your function should look like the image below. The edited section has been outlined in red, and the new line of code you need to type has a red arrow pointing at it. Please do not forget to type the comma after the word 'SCOPES'.
+<img src="Images/initAfter.png" width = "650">
+
+After you have done this, navigate to line 1858 in index.html. There will be a line of code that reads ``<script src = "scripts/require.js"></script>``. This line of code has been outlined in red in the image below.
+
+<img src="Images/requireBefore.png" width = "550">
+
+This line of code needs to be deleted for the scheduler to run. The image below shows what that section of text will look like after the line has been deleted. Please delete the line of code.
+
+<img src="Images/requireAFTER.png" width = "550">
+
+After you have made these edits to index.html, go to the directory named SourceCode within cmd, and run this command if you have a version of Python 3 installed:
+
+``python -m http.server 8000``
 
 ...or this command if you have a version of Python 2 installed:
 
-python -m SimpleHTTPServer 8000
+``python -m SimpleHTTPServer 8000``
 
 ...however, this project has not been tested using Python 2, so there may be errors if using Python 2. Please try to use the project using a version of Python 3.
 
 These lines of code start a very basic Python web server that will be hosting index.html. Once the Python server is running, go to http://localhost:8000/ in your web browser and the scheduler should be available to use.
+
+If upon correctly completing the steps above and navigating to http://localhost:8000/, there are any error messages at the bottom of the screen, please refer to the Google Quickstart tutorial's [troubleshooting](https://developers.google.com/calendar/api/quickstart/js#:~:text=the%20sample%20section.-,Troubleshoot%20the%20sample,-This%20section%20describes) section.
 
 
 <h2>USING THE SCHEDULER</h2>
