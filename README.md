@@ -7,7 +7,7 @@ To set up the scheduler, a Google Cloud Platform project must be created with th
 
 <h4>Getting your Client ID and API key.</h4>
 
-To obtain an API key and a Client ID, it is necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY. Although python 2.4 or greater can be used to run a web server for the project, it would be preferable to have a version of Python 3 installed for this project. If you are having issues setting up, please refer to the information under the heading "Troubleshoot the sample" at the bottom of the JavaScript QuickStart tutorial page.
+To obtain an API key and a Client ID, it is necessary to complete the bullet points under the heading "Prerequisites" within Google's JavaScript Quickstart tutorial, available at the link below. Upon completing these four bullet points, which have been outlined in red, in the image below, you should have access to your CLIENT ID and your API KEY. Although Python 2.4 or greater can be used to run a web server for the project, it would be preferable to have a version of Python 3 installed for this project. If you are having issues setting up, I have written advice for some of the more confusing parts within this file. 
 
 <img src="Images/download.png" width = "700">
 
